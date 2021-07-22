@@ -1,0 +1,119 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+
+*{
+	box-sizing: border-box;
+}
+
+body{
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+}
+
+
+.box 
+{
+	margin-right: auto;
+	background: white;
+	color: white;
+	width: 670px;
+	padding: 20px 25px;
+	border-radius: 76px 0px;
+	margin-left: auto;
+	box-shadow: 1px 1px 13px black;
+	margin-top:50px;
+}
+
+h1{
+	font-size: 26px;
+	box-shadow: 1px 0px 7px black;
+	color: #ffffff;
+	border-radius: 5px;
+	text-align: center;
+	background-color: black;}
+
+img
+{
+    
+border-radius: 50% ;
+border: dashed  black;
+    
+max-width: 100%;}
+.box p
+{
+
+background: black;
+
+border-radius: 5px;
+
+text-align: center;
+
+box-shadow: 1px 1px 7px #000000;
+
+color: white;
+font-size: 18px;
+}
+.container{
+
+width: 1200px;
+
+margin: auto;
+
+flex-wrap: wrap;
+
+display: flex;
+}
+.Product{
+    
+padding: 50px;
+    
+flex-basis: 50%;
+    }
+.black{
+
+background: #9c27b0;
+}
+.white{
+
+background: #2196f3;
+}
+h3{
+   font-size: 24px;
+	box-shadow: 1px 0px 7px black;
+	color: #ffffff;
+	border-radius: 5px;
+	text-align: center;
+	background-color: black;
+}
+h3 strong{}
+h3 span{
+    font-weight: 300;
+    text-decoration: line-through;
+}
+h2{
+	font-size: 26px;
+	box-shadow: 1px 0px 7px black;
+	color: black;
+	border-radius: 5px;
+	text-align: center;
+	background-color: white;
+	}
+	button{
+		background: black;
+    color: white;
+    font-size: 20px;
+    padding: 10px 37px;
+    border: 4px solid white;
+    border-radius: 30px;
+    cursor: pointer;
+}
+button:hover{
+	background: #2196f305;
+}
+.product-box{
+	border-radius: 10px;
+    box-shadow: 0 0 13px #333;
+    padding: 30px;
+
+
+}
